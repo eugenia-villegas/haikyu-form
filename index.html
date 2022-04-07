@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Haikyu Form!</title>
+</head>
+<body>
+    
+        <h1 id="title">Hi Haikyu Fans!</h1>
+        <p id="description">
+            Hi I'm Euge! I recently watched Haikyu and became totally insane about it. I loved it and I 
+            would like to connect with other fans to talk about it. If you are in the same place 
+            as I am please feel free to fill in the form.  
+        </p>
+    <form id="survey-form">    
+        
+            <fieldset class="aboutYou">
+            <legend>About you!</legend>
+                <label for="name-label">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <label for="lastname-label">Lastname</label>
+                <input type="text" id="lastname" placeholder="Your Lastname" required>
+                <label for="number-label">How old are you?</label>
+                <input type="number" id="number" min="18" max="32" placeholder="Age" required>
+                <label for="email-label">Email</label>    
+                <input type="email" id="email" placeholder="example@youremail.com" required>
+            </fieldset>
+            <fieldset class="aboutHaikyu">
+            <legend>Favorite Karasuno player:</legend>
+                <div>
+                    <input type="radio" name="player" value="Hinata">  
+                    <label for="Hinata">Hinata</label> <br>
+                    <input type="radio" name="player" value="Kageyama">
+                    <label for="Kageyama">Kageyama</label> <br>
+                    <input type="radio" name="player" value="Sugawara" id="Sugawara">
+                    <label for="Sugawara">Sugawara</label> <br>
+                    <input type="radio" name="player" value="Sugawara" id="Ennoshita">
+                    <label for="Sugawara">Ennoshita</label> <br>
+                    <input type="radio" name="player" value="Kinoshita">  
+                    <label for="Sawamura">Kinoshita</label> <br>
+                    <input type="radio" name="player" value="Tsukishima"> 
+                    <label>Tsukishima</label>  <br>
+                    <input type="radio" name="player" value="Tanaka">
+                    <label>Tanaka</label> <br>
+                    <input type="radio" name="player" value="Sugawara" id="Narita">
+                    <label for="Sugawara">Narita</label><br>
+                    <input type="radio" name="player" value="Yamaguchi">
+                    <label>Yamaguchi</label> <br>
+                    <input type="radio" name="player" value="Azumane">
+                    <label>Azumane</label> <br>
+                    <input type="radio" name="player" value="Nishinoya">
+                    <label>Nishinoya</label>
+                </div>
+                
+            </fieldset>
+            <fieldset class="aboutHaikyu">
+                <legend>Other:</legend>
+                    <div>
+                        <label for="school">Favorite School:</label> <br>
+                        <select name="school" required>
+                            <option value="karasuno">Karasuno</option>
+                            <option value="nekoma">Nekoma</option>
+                            <option value="shiratorizawa">shiratorizawa</option>
+                            <option value="Fukurodani">Fukurodani</option>
+                            <option value="Inarizaki">Inarizaki</option>
+                            <option value="Kamomedai">Kamomedai</option>
+                            <option value="aoba">Aoba Johsai</option>
+                            <option value="date">Date Tech</option>
+                        </select>
+                    </div> 
+                    <div>
+                        <label for="others">Other players:</label> <br>
+                        <input type="checkbox" name="others" value="Kuroo"> Tetsurō Kuroo<br>
+                        <input type="checkbox" name="others" value="Kenma"> Kenma Kozume<br>
+                        <input type="checkbox" name="others" value="Oikawa"> Tōru Oikawa<br>
+                        <input type="checkbox" name="others" value="Aone"> Takanobu Aone<br>
+                        <input type="checkbox" name="others" value="Bokuto"> Kōtarō Bokuto<br>
+                        <input type="checkbox" name="others" value="Ushijima"> Wakatoshi Ushijima<br>
+                        <input type="checkbox" name="others" value="Hyakuzawa"> Yūdai Hyakuzawa<br>
+                        <input type="checkbox" name="others" value="Miya"> Atsumu y Osamu Miya
+                    </div> 
+
+            </fieldset>
+            <div class="last__section">
+                <fieldset>
+                    <legend for="">Leave a message for me!</legend>
+                    <textarea name="" id="" placeholder="Your message..."></textarea>
+                </fieldset>
+                <button>Submit</button>
+            </div>
+            <br>
+        
+        
+    </form>
+    
+
+
+</body>
+</html>
