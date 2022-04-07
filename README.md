@@ -23,5 +23,5 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 
-<h4>WARNING! This is a work in progress. It is not responsible yet so I recommend you to open it from a computer.</h4>
+<h4>WARNING! This is a work in progress. It is not responsive yet so I recommend you to open it from a computer.</h4>
 <h4>WARNING 2! If you have not, you should watch Haykiu!</h4>
