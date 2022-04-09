@@ -103,6 +103,10 @@ textarea {
     background-color: black;
 }
 
+.message__field {
+    border-radius: 10px;
+}
+
 button {
     background-color: black;
     width: 12rem;
@@ -115,3 +119,31 @@ button {
  - Background difuminado porque se pierde el texto en los dibujos
  - Aumentar el width del parrafo a 85 e incluso 100 %
 */
+
+@media (max-width: 480px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .aboutHaikyu {
+        background-color: rgba(245, 245, 245, 0.212);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+    }
+
+    .aboutYou {
+        background-color: rgba(245, 245, 245, 0.212);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+    }
+
+    textarea {
+        width: 16rem;
+        background-color: rgba(245, 245, 245, 0.212);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+ }
+}
