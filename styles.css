@@ -165,3 +165,37 @@ button {
         width: 18vw;
     }
 }
+
+@media (min-width: 1030px) and (max-width: 1434px) {
+    form {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .aboutYou {
+        width: 22%;
+    }
+
+    .aboutYou input {
+        width: 100%;
+    }
+
+    .aboutHaikyu {
+        width: 22%;
+    }
+
+    .last__section {
+        width: 30%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .message__field {
+        width: 100%;
+    }
+}
