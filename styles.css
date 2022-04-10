@@ -125,7 +125,7 @@ button {
  - Aumentar el width del parrafo a 85 e incluso 100 %
 */
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     form {
         display: flex;
         flex-direction: column;
@@ -138,5 +138,33 @@ button {
     
     textarea {
         width: 16rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 912px) {
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /*background-color: rgba(101, 101, 101, 0.212);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);*/
+    }
+    
+    .aboutYou {
+        width: 100%;
+    }
+
+    .aboutYou input {
+        width: 100%;
+    }
+
+    .aboutHaikyu {
+        width: 49%;
+    }
+    
+    .message__field {
+        width: 18vw;
     }
 }
